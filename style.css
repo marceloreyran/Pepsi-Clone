@@ -1,0 +1,121 @@
+
+        body {
+            margin: 0;
+            font-family:"Sofia Pro Black" , Helvetica Neue, Helvetica, Arial, sans-serif;
+            background-color: #377bb8;
+            font-size: medium;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            text-transform: uppercase;
+            background-color: #0065c3;
+            padding: 10px;
+            color: white;
+            
+        }
+
+        .navbar-item{
+            margin-left: 15px;
+            cursor: pointer;
+        }
+
+        .navbar-left {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+
+        .button {
+            border: 3px solid white;
+            border-radius: 20px;
+            padding: 5px 20px ;
+            color:white;
+            background-color:#0065c3;
+            font-size: large;
+
+        
+        }
+
+
+        .product {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        
+                
+        }
+
+       
+
+        .product-item-1 { 
+            text-align: center;
+            padding: 50px;
+            background-color:#0065c3;
+            margin: 50px;
+            border-radius: 250px;
+            border: 3px solid white;
+            
+        }
+
+
+        #foto{
+        max-width: 15%;
+        margin: 20px;
+        padding-left: 70px;
+        
+        }
+
+        #foto2{
+        max-width: 14.5%;
+        margin: 20px;
+        padding-left: 100px;
+        }
+
+        #foto3{
+         max-width: 27%;
+          margin: 20px;
+            
+        }
+
+
+        .footer {
+        font-weight: normal;
+        font-style: normal;
+        background: #377bb8;
+        margin-top: 0px;
+        border-top: 2px solid #fff;
+        }
+
+
+        .footer__brandlogo {
+            width: 40px;
+            height: 40px;
+            display: block;
+            position: relative;
+            top: -20px;
+            margin: 0 auto;
+        
+        }
+
+
+        .footer__social-bar {
+         
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       padding: 10px;
+       
+            
+            
+        }
+
+
+        
